@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit_extras.let_it_rain import rain
+#from streamlit_extras.let_it_rain import rain
 
 def count_words(text):
     """Función para contar las palabras en un texto."""
