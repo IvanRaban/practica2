@@ -21,7 +21,7 @@ def main():
             word_count = count_words(user_text)
             st.success(f"El texto ingresado tiene {word_count} palabras.")
             # Animación de globos
-            rain(emoji="🎈", font_size=54, falling_speed=5, animation_length="infinite")
+            st.balloons()
         else:
             st.warning("Por favor, ingresa un texto válido.")
 
